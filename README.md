@@ -28,7 +28,7 @@ This project helps automate the process of analyzing vulnerabilities and underst
 
 1. Install dependencies:
 
-``bash
+```bash
 pip install -r requirements.txt
 Run the main script:
 python main.py
@@ -37,7 +37,7 @@ python run_tests.py
 
 ## Project Structure
 
-``text
+```text
 cybersecurity-threat-mapping/
 ├── README.md
 ├── requirements.txt
