@@ -23,3 +23,32 @@ This project helps automate the process of analyzing vulnerabilities and underst
 - Handling unstructured text
 - Building data pipelines
 - Debugging and improving system performance
+
+## How to Run
+
+1. Install dependencies:
+
+``bash
+pip install -r requirements.txt
+Run the main script:
+python main.py
+Optional: run tests:
+python run_tests.py
+
+## Project Structure
+
+``text
+cybersecurity-threat-mapping/
+├── README.md
+├── requirements.txt
+├── main.py
+├── run_tests.py
+├── live_data.py
+├── sysml_to_cpe.py
+├── sysml_cpe.py
+├── Phase6-1_data_prep.py
+├── Phase6-2_biencoder.py
+├── Phase6-3_classifier.py
+├── Phase6-4_soi_reranker.py
+├── Phase6-5_eval.py
+└── Phase6-6_run_pipeline.py
